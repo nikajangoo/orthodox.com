@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>orthodox.com</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="site-name">orthodox</div>
+        <h1>ხატები და ნაქარგები</h1>
+        <nav>
+            <div class="button-container">
+               
+            </div>
+            
+
+                </svg>					
+            </a>
+        
+        </nav>
+    </header>
+    
+    <main>
+        <section id="about">
+            <h2>ჩვენს შესახებ</h2>
+            <p>ხატების ქარგვა, ლოგოების ქარგვა, ნებისმიერ ქსოვილზე ბრენდირება</p>
+            <p>ნომერი: 555380355</p>
+            
+            <div class="button-container">
+                <a href="inde.html" class="button">shop</a>
+            </div>
+            
+                        
+        </section>
+        
+        <section id="shop">
+            
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form id="contactForm" onsubmit="return handleSubmit(event);">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+
+    <script>
+        function handleSubmit(event) {
+            event.preventDefault(); // Prevents the default form submission
+            window.location.href = "https://www.facebook.com/groups/397818769860973"; // Your Facebook URL
+        }
+    </script>
+</body>
+</html>

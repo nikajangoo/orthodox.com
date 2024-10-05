@@ -1,0 +1,22 @@
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white; /* Text color */
+    background-color: #6a5acd; /* Purple background */
+    border: 1px solid #6a5acd; /* Purple border */
+    border-radius: 5px; /* Slightly rounded corners */
+    text-align: center;
+    text-decoration: none; /* Remove underline */
+    transition: background-color 0.3s ease, border-color 0.3s ease; /* Smooth transition for hover */
+}
+
+.button:hover {
+    background-color: #5a4ea5; /* Darker purple on hover */
+    border-color: #5a4ea5; /* Darken border on hover */
+}
+
+.button:active {
+    background-color: #4b3b8a; /* Even darker shade when active */
+    border-color: #4b3b8a; /* Darken border when active */
+}
